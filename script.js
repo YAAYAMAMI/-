@@ -3,33 +3,29 @@ const SAVE_KEY = "kamiyama_collection_save_v1";
 
 const characters = [
   {
-    id: "aoi",
-    name: "葵",
-    note: "真面目で読書好き。勉強が伸びやすい。",
+    id: "atuto",
+    name: "大下温人",
     base: { study: 14, sports: 8, art: 10, social: 12, mood: 50 },
     growth: { study: 2, sports: 1, art: 1, social: 1 },
     pixel: ["  🟦🟦  ", " 🟦⬜🟦 ", " 🟫🟦🟫 ", "  ⬛⬛  "]
   },
   {
-    id: "rin",
-    name: "凛",
-    note: "運動神経バツグン。体力勝負に強い。",
+    id: "yoichi",
+    name: "高垣陽一",
     base: { study: 9, sports: 15, art: 8, social: 10, mood: 50 },
     growth: { study: 1, sports: 2, art: 1, social: 1 },
     pixel: ["  🟥🟥  ", " 🟥⬜🟥 ", " 🟫🟥🟫 ", "  ⬛⬛  "]
   },
   {
-    id: "yuzu",
-    name: "柚",
-    note: "絵と音楽が得意。創作で大きく伸びる。",
+    id: "yuna",
+    name: "新矢結菜",
     base: { study: 8, sports: 9, art: 15, social: 11, mood: 50 },
     growth: { study: 1, sports: 1, art: 2, social: 1 },
     pixel: ["  🟨🟨  ", " 🟨⬜🟨 ", " 🟫🟨🟫 ", "  ⬛⬛  "]
   },
   {
-    id: "mei",
-    name: "芽衣",
-    note: "友達作りが上手。交流イベントに強い。",
+    id: "yuna",
+    name: "今井結菜",
     base: { study: 10, sports: 10, art: 9, social: 14, mood: 50 },
     growth: { study: 1, sports: 1, art: 1, social: 2 },
     pixel: ["  🟪🟪  ", " 🟪⬜🟪 ", " 🟫🟪🟫 ", "  ⬛⬛  "]
